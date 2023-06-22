@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-200">
+
+  <div class="w-full min-h-screen pt-2 flex flex-col items-center gap-5 justify-center">
+    <div>
+      <h1 class="text-4xl font-semibold">Temukan Solusi Terbaik untuk Bisnis Anda</h1>
+    </div>
+
+    <!-- page 1 -->
+    <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl" id="page1">
+      <!-- step -->
+      <div class="flex justify-center gap-4">
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 2</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 3</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+      </div>
+
+      <!-- title -->
+      <div>
+        <h1 class="text-2xl text-center">Pilih Berdasarkan Kategori Industri Anda</h1>
+      </div>
+
+      <!-- cari solusi page 1 -->
+      <div class="w-[85%] rounded-lg flex justify-center gap-5 flex-wrap" id="container">
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item">
+          Pendidikan
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item2">
+          properti
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item3">
+          Desain Interior
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item4">
+          Retail & E-commerce
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item5">
+          Media dan Komunikasi
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item6">
+          Pemerintahan
+        </div>
+
+      </div>
+
+      <div class="self-end mr-10 cursor-pointer hidden" id="next">
+        <h2 class="font-semibold text-lg text-red-500">Next >>></h2>
+      </div>
+    </div>
+    <!-- akhir page 1 -->
+
+    <!-- page 2 -->
+    <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="page2">
+      <!-- step -->
+      <div class="flex justify-center gap-4">
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 3</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+      </div>
+
+      <!-- title -->
+      <div>
+        <h1 class="text-2xl text-center">Layanan yang
+          Dibutuhkan</h1>
+      </div>
+
+      <!-- cari solusi page 2 -->
+      <div class="w-[85%] rounded-lg flex justify-center gap-5 flex-wrap" id="container">
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item21">
+          Website
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item22">
+          Advertising
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item23">
+          Creative Production
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item24">
+          Social Media
+          Management
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="item25">
+          Google Business
+          Optimization
+        </div>
+
+
+      </div>
+
+      <div class="w-full flex justify-between px-10" id="tombol2">
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="back2">Back </h2>
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="next2">Next >>></h2>
+      </div>
+    </div>
+    <!-- akhir page 2 -->
+
+    <!-- page 3 -->
+
+    <!--website  -->
+    <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagewebsite">
+      <!-- step -->
+      <div class="flex justify-center gap-4">
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+      </div>
+
+      <!-- title -->
+      <div>
+        <h1 class="text-2xl text-center">Layanan yang
+          Dibutuhkan</h1>
+      </div>
+
+      <!-- cari solusi optional -->
+      <div class="w-[85%] rounded-lg flex justify-center gap-5 flex-wrap" id="container">
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="website1">
+          HubSpot Marketing
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="website2">
+          Wordpress
+        </div>
+      </div>
+
+      <div class="w-full flex justify-between px-10" id="tombolwebsite">
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backweb">Back </h2>
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextweb">Next >>></h2>
+      </div>
+    </div>
+    <!-- akhir website -->
+
+    <!--advertising  -->
+    <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pageadvertising">
+      <!-- step -->
+      <div class="flex justify-center gap-4">
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
+        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
+        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+      </div>
+
+      <!-- title -->
+      <div>
+        <h1 class="text-2xl text-center">Layanan yang
+          Dibutuhkan</h1>
+      </div>
+
+      <!-- cari solusi optional -->
+      <div class="w-[85%] rounded-lg flex justify-center gap-5 flex-wrap" id="container">
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="advertising1">
+          Social Media
+          Advertising
+        </div>
+        <div
+          class="border-2 border-red-500 w-[31%] rounded-lg overflow-hidden relative p-3 text-center grid place-items-center cursor-pointer"
+          id="advertising2">
+          Google Advertising
+        </div>
+      </div>
+
+      <div class="w-full flex justify-between px-10">
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backads">Back </h2>
+        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextads">Next >>></h2>
+      </div>
+    </div>
+    <!-- akhir advertising -->
+
+
+    <!-- akhir page 3 -->
+
+
+  </div>
+
+  <script src="./page1.js"></script>
+</body>
+
+</html>

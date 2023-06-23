@@ -1,3 +1,6 @@
+// loader
+let loader = document.getElementById("loader");
+
 // page
 let page1 = document.getElementById("page1");
 
@@ -31,6 +34,15 @@ let searchengine = document.getElementById("pagesearchengine");
 
 // inisiasi tombol mana yang dipencet
 let value = "";
+function closeLoader() {
+  setTimeout(() => {
+    loader.classList.add("hidden");
+  }, 300);
+}
+const loaderr = () => {
+  loader.classList.remove("hidden");
+  closeLoader();
+};
 
 // KHUSUS PAGE 1
 
@@ -160,7 +172,10 @@ item6.addEventListener("click", function () {
 
 next.addEventListener("click", function () {
   page1.classList.add("hidden");
-  page2.classList.remove("hidden");
+  loaderr();
+  setTimeout(() => {
+    page2.classList.remove("hidden");
+  }, 300);
 
   item.classList.remove("bg-red-500");
   item.classList.remove("text-white");
@@ -302,19 +317,34 @@ back2.addEventListener("click", function () {
 
 next2.addEventListener("click", function () {
   if (value === "item21") {
-    website.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      website.classList.remove("hidden");
+    }, 300);
   }
   if (value === "item22") {
-    advertising.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      advertising.classList.remove("hidden");
+    }, 300);
   }
   if (value === "item23") {
-    creativeproduction.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      creativeproduction.classList.remove("hidden");
+    }, 300);
   }
   if (value === "item24") {
-    sosialmediamanagement.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      sosialmediamanagement.classList.remove("hidden");
+    }, 300);
   }
   if (value === "item25") {
-    googlebussinessoptimization.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      googlebussinessoptimization.classList.remove("hidden");
+    }, 300);
   }
 
   page2.classList.add("hidden");
@@ -382,10 +412,16 @@ backweb.addEventListener("click", function () {
 nextweb.addEventListener("click", function () {
   website.classList.add("hidden");
   if (value === "website1") {
-    hubspotmarketing.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      hubspotmarketing.classList.remove("hidden");
+    }, 300);
   }
   if (value === "website2") {
-    wordpress.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      wordpress.classList.remove("hidden");
+    }, 300);
   }
 
   website1.classList.remove("bg-red-500");
@@ -445,10 +481,16 @@ backads.addEventListener("click", function () {
 nextads.addEventListener("click", function () {
   advertising.classList.add("hidden");
   if (value === "advertising1") {
-    sosialmediamaadvertising.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      sosialmediamaadvertising.classList.remove("hidden");
+    }, 300);
   }
   if (value === "advertising2") {
-    googleadvertising.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      googleadvertising.classList.remove("hidden");
+    }, 300);
   }
 
   advertising1.classList.remove("bg-red-500");
@@ -508,10 +550,16 @@ backcrepro.addEventListener("click", function () {
 nextcrepro.addEventListener("click", function () {
   creativeproduction.classList.add("hidden");
   if (value === "creative1") {
-    videoproduction.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      videoproduction.classList.remove("hidden");
+    }, 300);
   }
   if (value === "creative2") {
-    visualproduction.classList.remove("hidden");
+    loaderr();
+    setTimeout(() => {
+      visualproduction.classList.remove("hidden");
+    }, 300);
   }
 
   creative1.classList.remove("bg-red-500");
@@ -540,7 +588,7 @@ sosmed1.addEventListener("click", function () {
   sosmed2.classList.remove("bg-red-500");
   sosmed2.classList.remove("text-white");
 
-  nextsos.classList.remove("hidden");
+  homesos.classList.remove("hidden");
   console.log(value);
 });
 
@@ -603,7 +651,10 @@ backseo.addEventListener("click", function () {
 
 nextseo.addEventListener("click", function () {
   googlebussinessoptimization.classList.add("hidden");
-  searchengine.classList.remove("hidden");
+  loaderr();
+  setTimeout(() => {
+    searchengine.classList.remove("hidden");
+  }, 300);
 
   seo.classList.remove("bg-red-500");
   seo.classList.remove("text-white");

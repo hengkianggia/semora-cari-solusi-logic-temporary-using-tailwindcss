@@ -4,8 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Semora</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script>
     tailwind.config = {
       theme: {
@@ -21,7 +24,7 @@
 
 <body class="bg-gray-200">
 
-  <div class="w-full min-h-screen pt-2 flex flex-col items-center gap-5 justify-center">
+  <div class="flex flex-col items-center justify-center w-full min-h-screen gap-5 pt-2">
     <div>
       <h1 class="text-4xl font-semibold">Temukan Solusi Terbaik untuk Bisnis Anda</h1>
     </div>
@@ -30,10 +33,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl" id="page1">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -76,8 +79,8 @@
 
       </div>
 
-      <div class="self-end mr-10 cursor-pointer hidden" id="next">
-        <h2 class="font-semibold text-lg text-red-500">Next >>></h2>
+      <div class="self-end hidden mr-10 cursor-pointer" id="next">
+        <h2 class="text-lg font-semibold text-red-500">Next >>></h2>
       </div>
     </div>
     <!-- akhir page 1 -->
@@ -86,10 +89,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="page2">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -131,9 +134,9 @@
 
       </div>
 
-      <div class="w-full flex justify-between px-10" id="tombol2">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="back2">Back </h2>
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="next2">Next >>></h2>
+      <div class="flex justify-between w-full px-10" id="tombol2">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="back2">Back </h2>
+        <h2 class="hidden text-lg font-semibold text-red-500 cursor-pointer" id="next2">Next >>></h2>
       </div>
     </div>
     <!-- akhir page 2 -->
@@ -144,10 +147,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagewebsite">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -170,9 +173,9 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10" id="tombolwebsite">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backweb">Back </h2>
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextweb">Next >>></h2>
+      <div class="flex justify-between w-full px-10" id="tombolwebsite">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backweb">Back </h2>
+        <h2 class="hidden text-lg font-semibold text-red-500 cursor-pointer" id="nextweb">Next >>></h2>
       </div>
     </div>
     <!-- akhir website -->
@@ -181,10 +184,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pageadvertising">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -208,9 +211,9 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backads">Back </h2>
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextads">Next >>></h2>
+      <div class="flex justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backads">Back </h2>
+        <h2 class="hidden text-lg font-semibold text-red-500 cursor-pointer" id="nextads">Next >>></h2>
       </div>
     </div>
     <!-- akhir advertising -->
@@ -219,10 +222,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagecreativeproduction">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -245,9 +248,9 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backcrepro">Back </h2>
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextcrepro">Next >>></h2>
+      <div class="flex justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backcrepro">Back </h2>
+        <h2 class="hidden text-lg font-semibold text-red-500 cursor-pointer" id="nextcrepro">Next >>></h2>
       </div>
     </div>
     <!-- akhir Creative Production -->
@@ -257,9 +260,9 @@
       id="pagesosialmediamanagement">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
       </div>
 
       <!-- title -->
@@ -284,9 +287,9 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backsos">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homesos">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backsos">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homesos"></i>
       </div>
     </div>
     <!-- akhir Social Media Management -->
@@ -296,10 +299,10 @@
       id="pagegooglebussinessoptimization">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-gray-500 font-semibold border border-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-gray-500 border border-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -318,9 +321,9 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backseo">Back </h2>
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer hidden" id="nextseo">Next >>></h2>
+      <div class="flex justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backseo">Back </h2>
+        <h2 class="hidden text-lg font-semibold text-red-500 cursor-pointer" id="nextseo">Next >>></h2>
       </div>
     </div>
     <!-- akhir Google Business Optimization -->
@@ -333,10 +336,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagehubspotmarketing">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -354,9 +357,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backhub">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homehub">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backhub">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homehub"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homehub"> -->
       </div>
     </div>
     <!-- akhir Layanan HubSpot Marketing -->
@@ -365,10 +369,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagewordpress">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -390,9 +394,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backwordpress">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homewordpress">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backwordpress">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homewordpress"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homewordpress"> -->
       </div>
     </div>
     <!-- akhir Layanan Wordpress -->
@@ -402,10 +407,10 @@
       id="pagesosialmediamaadvertising">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -432,9 +437,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backsosmedads">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homesosmedads">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backsosmedads">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homesosmedads"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homesosmedads"> -->
       </div>
     </div>
     <!-- akhir Layanan Social Media Advertising -->
@@ -443,10 +449,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagegoogleadvertising">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -468,9 +474,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backgoogleads">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homegoogleads">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backgoogleads">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homegoogleads"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homegoogleads"> -->
       </div>
     </div>
     <!-- akhir Layanan Google Advertising -->
@@ -479,10 +486,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagevideoproduction">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -504,9 +511,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backvideoproduction">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homevideoproduction">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backvideoproduction">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homevideoproduction"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homevideoproduction"> -->
       </div>
     </div>
     <!-- akhir Layanan Video Production -->
@@ -515,10 +523,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagevisualproduction">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -535,9 +543,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backvisualproduction">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homevisualproduction">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backvisualproduction">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homevisualproduction"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homevisualproduction"> -->
       </div>
     </div>
     <!-- akhir Layanan Visual Production -->
@@ -546,10 +555,10 @@
     <div class="flex flex-col items-center gap-5 w-[75%] bg-white py-10 rounded-xl hidden" id="pagesearchengine">
       <!-- step -->
       <div class="flex justify-center gap-4">
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 1</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 2</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 3</div>
-        <div class="p-2 px-3 rounded-lg text-white font-semibold bg-red-500">Step 4</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 1</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 2</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 3</div>
+        <div class="p-2 px-3 font-semibold text-white bg-red-500 rounded-lg">Step 4</div>
       </div>
 
       <!-- title -->
@@ -571,9 +580,10 @@
         </div>
       </div>
 
-      <div class="w-full flex justify-between px-10">
-        <h2 class="font-semibold text-lg text-red-500 cursor-pointer" id="backsearchengine">Back </h2>
-        <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homesearchengine">
+      <div class="flex items-center justify-between w-full px-10">
+        <h2 class="text-lg font-semibold text-red-500 cursor-pointer" id="backsearchengine">Back </h2>
+        <i class="cursor-pointer fa-solid fa-house" style="color: #ef4444;" id="homesearchengine"></i>
+        <!-- <img src="./asset/home.svg" alt="home" class="w-6 h-6 text-red-500 cursor-pointer" id="homesearchengine"> -->
       </div>
     </div>
     <!-- akhir Search Engine Optimization -->
@@ -581,9 +591,12 @@
 
     <!-- akhir page 4 -->
 
+    <!-- LOADER -->
+    <div class="grid place-items-center w-[75%] bg-white py-10 rounded-xl hidden" id="loader">
+      <p>loading....</p>
+    </div>
 
   </div>
-
   <script src="./page1.js"></script>
 </body>
 
